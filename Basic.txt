@@ -1,0 +1,41 @@
+aaa.txt || bbb.txt      ----> 2 dosyayi birden açar...
+
+aaa.txt & bbb.txt       ----> 2 dosyayi birden açar...       
+
+dir /s | more
+
+tree /a   : perfect
+
+rename c:\computer\test.txt hope.txt
+
+ren *.txt *.sql   ---> Çoklu dosya uzantisi degistirme
+
+type
+
+rmdir /s      : klasörü bir sekilde siler.
+
+move *.pdf klasor_adi
+
+dir > dir.txt   : çiktiyi yaz ...
+
+FOR /R "C:\Users\bny\Desktop\arama" %G IN (.) DO (find /i "ric" *)
+
+findstr "ric"
+
+dir /s *ric*   -----> dosya arama
+
+dir /b/s *.txt  -----> 
+
+find /i "ric" *.txt
+
+Dizinin tüm alt dizinlerindeki dosyalarda text ifadesinin aranmasi...
+
+del *asdd*  ---> içinde asdd ifadesi geçen dosyalar silinir...
+
+del /s *.class  ----->  ilgili dizin ve bütün alt dizinlerinde sonu class ile biten dosyalar silinir bu komutla...
+
+dir *git*     ---->   içinde git kelimesi geçenleri sirala...
+
+
+
+

@@ -1,0 +1,75 @@
+assoc
+cipher
+driverquery
+file compare ? 
+ping google.com , pathping
+tracert google.com
+powercfg ? 
+shutdown
+recimg ?
+tasklist
+taskkill ?
+mmc
+assoc
+chkntfs
+convert
+psr
+driverquery
+fsutil
+label
+
+net share   --> Hangi klasörler paylasimli
+
+tasklist --> suan çalissmakta olan tüm görevler
+
+taskkill
+net use : paylasimlari sürücü harflerine baglamak
+
+ping : bu komut ile web adresine erisilip erisilmedigini denetleyebiliriz...
+
+pathping --> Bir bilgisayara ping komutu ile erisemediginizde, kaynaktan hedefe tüm noktalari gösteren pathping komutunu kullanabilirsiniz.
+
+tracert---> Ping ve pathping'in ardindan sorun giderme için kullabileceginiz üçüncü bir komut var: tracert. Bu komut ile belirli bir adrese her adimda ne kadar sürede erisilebildigini görebilirsiniz.
+
+devmgmt  ---> aygit yöneticisni açmak
+
+compmgmt  --->  Bilgisayar Yönetimi'ni hizla açmak için compmgmt komutunu kullanabilirsiniz.
+
+systeminfo --> Bilgisayarinizda bulunan donanim ve yazilimlarin bir listesini komut satindan, detayli olarak görebilirsiniz. Çiktiyi bir metin dosyasina aktararak PC ekipmaninizin bir günlügünü saklayabilirsiniz. 
+
+msiexec  ---> MSI paketlerini üzerlerine çift tiklayarak yüklemeniz mümkün. Ancak msiexec komutu ile daha fazla ince ayar yapabilirsiniz. örnegin /quiet parametresi ile yüklemeyi arka planda yapabilirsiniz.
+
+regedit  -->  Windows kullanicilarinin bilmesi gereken klasik araç Kayit Defteri'ni regedit komutuyla baslatabilirsiniz.
+
+defrag --> Diskinizi herhangi bir grafiksel arayüz olmadan da birlestirebilirsiniz. Örnegin C sürücüsünü birlestirmek için defrag c: komutunu verin.
+
+displayswitch --> çift ekran muhabbeti
+
+winsat ---> gücü göster
+
+mblctr --> Bir laptop kullaniyorsaniz, mblctr komutu ile ses düzeyi, ag baglantisi durumu, ekran parlakligi gibi ayarlari önünüze getiren Windows Mobility Center'a mblctr komutuyla ulasabilirsiniz.
+
+ipconfig --> 
+
+msinfo32  --> Sisteminizde tam olarak hangi donanim ve yazilimlarin bulundugunu bilmek istiyorsaniz, bu komut çok isinize yarayacak.
+
+presentationsettings ---> Bir sunum yapacaksiniz ve Windows'un sistem mesajlarini ve uyku moduna girmesini engellemek istiyorsunuz. Bu durumda presentationsettings komutunu vererek gerekli ayarlari yapabilirsiniz.
+
+chkdsk  --> Su an hangi ag baglantilari açik durumda? Bunu netstat komutuyla ortaya çikarabilirsiniz. netstat -a komutu ise tüm baglantilari ve dinleme baglanti noktalarini listeler.
+
+robocopy --> güçlü kopyalama araci
+
+
+wf ---> güvenlik duvari
+
+eventvwr  -->  Windows herhangi bir sey oldugunda bunu bir olay olarak günlüge kaydeder. Olay Görüntüleyici ise bu kayitlari size göstermeye yarar. Olay Görüntüleyi'yi eventvwr komutuyla açabilirsiniz.
+
+secpol --> yerel güvenlik ilkeleri
+
+gpedit  --->  Grup Ilkesi Düzenleyici, çok sayida kullaniciya farkli izinler atamak isteyen kurumlarin oldukça isine yarayabilir. Araç yardimiyla yerel PC'de kullanilan ilkeleri de düzenlemek mümkün.
+
+
+
+diskmgmt---> Sabit disk ayarlarini kurcalamak istiyorsaniz, diskmgmt komtuyla direkt olarak Disk Yönetimi'ni açabilirsiniz.
+
+
