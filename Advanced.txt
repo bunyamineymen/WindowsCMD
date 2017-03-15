@@ -17,6 +17,7 @@ psr
 driverquery
 fsutil
 label
+netstat
 
 net share   --> Hangi klasörler paylasimli
 
