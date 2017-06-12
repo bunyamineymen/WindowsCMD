@@ -1,6 +1,6 @@
-aaa.txt || bbb.txt      ----> 2 dosyayi birden açar...
+aaa.txt || bbb.txt      ----> 2 dosyayi birden aÃ§ar...
 
-aaa.txt & bbb.txt       ----> 2 dosyayi birden açar...       
+aaa.txt & bbb.txt       ----> 2 dosyayi birden aÃ§ar...       
 
 dir /s | more
 
@@ -8,15 +8,15 @@ tree /a   : perfect
 
 rename c:\computer\test.txt hope.txt
 
-ren *.txt *.sql   ---> Çoklu dosya uzantisi degistirme
+ren *.txt *.sql   ---> Ã‡oklu dosya uzantisi degistirme
 
 type
 
-rmdir /s      : klasörü bir sekilde siler.
+rmdir /s      : klasÃ¶rÃ¼ bir sekilde siler.
 
 move *.pdf klasor_adi
 
-dir > dir.txt   : çiktiyi yaz ...
+dir > dir.txt   : Ã§iktiyi yaz ...
 
 FOR /R "C:\Users\bny\Desktop\arama" %G IN (.) DO (find /i "ric" *)
 
@@ -28,14 +28,14 @@ dir /b/s *.txt  ----->
 
 find /i "ric" *.txt
 
-Dizinin tüm alt dizinlerindeki dosyalarda text ifadesinin aranmasi...
+Dizinin tÃ¼m alt dizinlerindeki dosyalarda text ifadesinin aranmasi...
 
-del *asdd*  ---> içinde asdd ifadesi geçen dosyalar silinir...
+del *asdd*  ---> iÃ§inde asdd ifadesi geÃ§en dosyalar silinir...
 
-del /s *.class  ----->  ilgili dizin ve bütün alt dizinlerinde sonu class ile biten dosyalar silinir bu komutla...
+del /s *.class  ----->  ilgili dizin ve bÃ¼tÃ¼n alt dizinlerinde sonu class ile biten dosyalar silinir bu komutla...
 
-dir *git*     ---->   içinde git kelimesi geçenleri sirala...
+dir *git*     ---->   iÃ§inde git kelimesi geÃ§enleri sirala...
 
-
+dosya oluÅŸturmak  -----> echo.>filename
 
 
