@@ -19,58 +19,60 @@ fsutil
 label
 netstat
 
-net share   --> Hangi klasörler paylasimli
+net share   --> Hangi klasÃ¶rler paylasimli
 
-tasklist --> suan çalissmakta olan tüm görevler
+tasklist --> suan Ã§alissmakta olan tÃ¼m gÃ¶revler
 
 taskkill
-net use : paylasimlari sürücü harflerine baglamak
+net use : paylasimlari sÃ¼rÃ¼cÃ¼ harflerine baglamak
 
 ping : bu komut ile web adresine erisilip erisilmedigini denetleyebiliriz...
 
-pathping --> Bir bilgisayara ping komutu ile erisemediginizde, kaynaktan hedefe tüm noktalari gösteren pathping komutunu kullanabilirsiniz.
+pathping --> Bir bilgisayara ping komutu ile erisemediginizde, kaynaktan hedefe tÃ¼m noktalari gÃ¶steren pathping komutunu kullanabilirsiniz.
 
-tracert---> Ping ve pathping'in ardindan sorun giderme için kullabileceginiz üçüncü bir komut var: tracert. Bu komut ile belirli bir adrese her adimda ne kadar sürede erisilebildigini görebilirsiniz.
+tracert---> Ping ve pathping'in ardindan sorun giderme iÃ§in kullabileceginiz Ã¼Ã§Ã¼ncÃ¼ bir komut var: tracert. Bu komut ile belirli bir adrese her adimda ne kadar sÃ¼rede erisilebildigini gÃ¶rebilirsiniz.
 
-devmgmt  ---> aygit yöneticisni açmak
+devmgmt  ---> aygit yÃ¶neticisni aÃ§mak
 
-compmgmt  --->  Bilgisayar Yönetimi'ni hizla açmak için compmgmt komutunu kullanabilirsiniz.
+compmgmt  --->  Bilgisayar YÃ¶netimi'ni hizla aÃ§mak iÃ§in compmgmt komutunu kullanabilirsiniz.
 
-systeminfo --> Bilgisayarinizda bulunan donanim ve yazilimlarin bir listesini komut satindan, detayli olarak görebilirsiniz. Çiktiyi bir metin dosyasina aktararak PC ekipmaninizin bir günlügünü saklayabilirsiniz. 
+systeminfo --> Bilgisayarinizda bulunan donanim ve yazilimlarin bir listesini komut satindan, detayli olarak gÃ¶rebilirsiniz. Ã‡iktiyi bir metin dosyasina aktararak PC ekipmaninizin bir gÃ¼nlÃ¼gÃ¼nÃ¼ saklayabilirsiniz. 
 
-msiexec  ---> MSI paketlerini üzerlerine çift tiklayarak yüklemeniz mümkün. Ancak msiexec komutu ile daha fazla ince ayar yapabilirsiniz. örnegin /quiet parametresi ile yüklemeyi arka planda yapabilirsiniz.
+msiexec  ---> MSI paketlerini Ã¼zerlerine Ã§ift tiklayarak yÃ¼klemeniz mÃ¼mkÃ¼n. Ancak msiexec komutu ile daha fazla ince ayar yapabilirsiniz. Ã¶rnegin /quiet parametresi ile yÃ¼klemeyi arka planda yapabilirsiniz.
 
-regedit  -->  Windows kullanicilarinin bilmesi gereken klasik araç Kayit Defteri'ni regedit komutuyla baslatabilirsiniz.
+regedit  -->  Windows kullanicilarinin bilmesi gereken klasik araÃ§ Kayit Defteri'ni regedit komutuyla baslatabilirsiniz.
 
-defrag --> Diskinizi herhangi bir grafiksel arayüz olmadan da birlestirebilirsiniz. Örnegin C sürücüsünü birlestirmek için defrag c: komutunu verin.
+defrag --> Diskinizi herhangi bir grafiksel arayÃ¼z olmadan da birlestirebilirsiniz. Ã–rnegin C sÃ¼rÃ¼cÃ¼sÃ¼nÃ¼ birlestirmek iÃ§in defrag c: komutunu verin.
 
-displayswitch --> çift ekran muhabbeti
+displayswitch --> Ã§ift ekran muhabbeti
 
-winsat ---> gücü göster
+winsat ---> gÃ¼cÃ¼ gÃ¶ster
 
-mblctr --> Bir laptop kullaniyorsaniz, mblctr komutu ile ses düzeyi, ag baglantisi durumu, ekran parlakligi gibi ayarlari önünüze getiren Windows Mobility Center'a mblctr komutuyla ulasabilirsiniz.
+mblctr --> Bir laptop kullaniyorsaniz, mblctr komutu ile ses dÃ¼zeyi, ag baglantisi durumu, ekran parlakligi gibi ayarlari Ã¶nÃ¼nÃ¼ze getiren Windows Mobility Center'a mblctr komutuyla ulasabilirsiniz.
 
 ipconfig --> 
 
-msinfo32  --> Sisteminizde tam olarak hangi donanim ve yazilimlarin bulundugunu bilmek istiyorsaniz, bu komut çok isinize yarayacak.
+msinfo32  --> Sisteminizde tam olarak hangi donanim ve yazilimlarin bulundugunu bilmek istiyorsaniz, bu komut Ã§ok isinize yarayacak.
 
 presentationsettings ---> Bir sunum yapacaksiniz ve Windows'un sistem mesajlarini ve uyku moduna girmesini engellemek istiyorsunuz. Bu durumda presentationsettings komutunu vererek gerekli ayarlari yapabilirsiniz.
 
-chkdsk  --> Su an hangi ag baglantilari açik durumda? Bunu netstat komutuyla ortaya çikarabilirsiniz. netstat -a komutu ise tüm baglantilari ve dinleme baglanti noktalarini listeler.
+chkdsk  --> Su an hangi ag baglantilari aÃ§ik durumda? Bunu netstat komutuyla ortaya Ã§ikarabilirsiniz. netstat -a komutu ise tÃ¼m baglantilari ve dinleme baglanti noktalarini listeler.
 
-robocopy --> güçlü kopyalama araci
-
-
-wf ---> güvenlik duvari
-
-eventvwr  -->  Windows herhangi bir sey oldugunda bunu bir olay olarak günlüge kaydeder. Olay Görüntüleyici ise bu kayitlari size göstermeye yarar. Olay Görüntüleyi'yi eventvwr komutuyla açabilirsiniz.
-
-secpol --> yerel güvenlik ilkeleri
-
-gpedit  --->  Grup Ilkesi Düzenleyici, çok sayida kullaniciya farkli izinler atamak isteyen kurumlarin oldukça isine yarayabilir. Araç yardimiyla yerel PC'de kullanilan ilkeleri de düzenlemek mümkün.
+robocopy --> gÃ¼Ã§lÃ¼ kopyalama araci
 
 
+wf ---> gÃ¼venlik duvari
 
-diskmgmt---> Sabit disk ayarlarini kurcalamak istiyorsaniz, diskmgmt komtuyla direkt olarak Disk Yönetimi'ni açabilirsiniz.
+eventvwr  -->  Windows herhangi bir sey oldugunda bunu bir olay olarak gÃ¼nlÃ¼ge kaydeder. Olay GÃ¶rÃ¼ntÃ¼leyici ise bu kayitlari size gÃ¶stermeye yarar. Olay GÃ¶rÃ¼ntÃ¼leyi'yi eventvwr komutuyla aÃ§abilirsiniz.
 
+secpol --> yerel gÃ¼venlik ilkeleri
+
+gpedit  --->  Grup Ilkesi DÃ¼zenleyici, Ã§ok sayida kullaniciya farkli izinler atamak isteyen kurumlarin oldukÃ§a isine yarayabilir. AraÃ§ yardimiyla yerel PC'de kullanilan ilkeleri de dÃ¼zenlemek mÃ¼mkÃ¼n.
+
+
+
+diskmgmt---> Sabit disk ayarlarini kurcalamak istiyorsaniz, diskmgmt komtuyla direkt olarak Disk YÃ¶netimi'ni aÃ§abilirsiniz.
+
+
+del /s *.pdf   -----> Ä°Ã§eride pdf namÄ±na ne varsa uÃ§ur.
 
