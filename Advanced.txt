@@ -76,3 +76,6 @@ diskmgmt---> Sabit disk ayarlarini kurcalamak istiyorsaniz, diskmgmt komtuyla di
 
 del /s *.pdf   -----> İçeride pdf namına ne varsa uçur.
 
+
+ren *^ *^.sh   -----> Uzantısı olmayan bütün dosyaların sonuna sh uzantısı ekle
+
